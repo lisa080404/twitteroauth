@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once("/Users/lyan013/projects/testoauth/twitteroauth/twitteroauth/twitteroauth.php"); //Path to twitteroauth library
+require_once("../twitteroauth/twitteroauth.php"); //Path to twitteroauth library
  
 $twitteruser = "ydhaoq@gmail.com";
 $notweets = 30;
